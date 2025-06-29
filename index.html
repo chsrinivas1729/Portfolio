@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav>
+        <div class="left">
+            <a href="/">Srinivas Siva Surya Chitneedi</a>
+        </div>
+        <div class="right">
+            <a href="https://www.linkedin.com/in/srinivas-siva-surya-chitneedi-4ba0b2258/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="https://www.instagram.com/ch_srinivas._.1729/?hl=en" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+
+            <a href="mailto:srinivasss1355@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Gmail</span>
+            </a>
+        </div>
+
+
+
+    </nav>
+    <main>
+        <!--Section 1: Person-->
+        <section class="Person">
+        <div class="text">
+            <h2>Hi, I'm Srinivas 👋</h2>
+            <p>I love exploring how technology can solve everyday problems. Currently, I’m diving into building an app using Kotlin and Java, and I enjoy working on creative projects that challenge me. Apart from coding, you’ll probably find me playing badminton or brainstorming my next big idea!</p>
+            <div class="links">
+                <a href="#Skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+                </a>
+                <a href="#Projects">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#Summary">
+                <i class="fa-solid fa-user"></i>
+                <span>About Me</span>
+                </a>
+
+                <a href="#Contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+        <div class="headshot">
+            <img src="Image/image.jpg" alt="Srinivas" width="350px" height="325px">
+        </div>
+        </section>
+        <!--Section 2: Skills-->
+        <section id="Skills" class = "Skills">
+            <h2>Skills</h2>
+            <div class = "text">
+                Here's what I know and actively work with:
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <img src="Image/html.png" alt="html logo">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="Image/css.png" alt="css logo">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="Image/java.png" alt="java logo">
+                    <span>JAVA</span>
+                </div>
+                <div class="cell">
+                    <img src="Image/sql.png" alt="sql logo">
+                    <span>SQL</span>
+                </div>
+            </div>
+            
+        </section>
+        <!--Section 3: Projects-->
+        <section id="Projects" class="Skills">
+            <h2>Projects</h2>
+            <div class="text">Some of the projects I’ve worked on:</div>
+            <div class="cells">
+
+                <div class="cell">
+                    <i class="fa-solid fa-microchip fa-2x"></i>
+                    <span style="font-weight:600; margin-top:10px;">QR-Based License Plate Scanner</span>
+                    <p style="text-align:center; font-size:14px; margin-top:10px;">
+                        A parking access system built using Arduino and Python that scans QR codes to allow authorized vehicle entry. Designed for garages, workplaces, and gated communities.
+                    </p>
+                </div>
+
+                <div class="cell">
+                    <i class="fa-solid fa-globe fa-2x"></i>
+                    <span style="font-weight:600; margin-top:10px;">Personal Portfolio Website</span>
+                    <p style="text-align:center; font-size:14px; margin-top:10px;">
+                        A responsive personal website built using HTML and CSS to showcase my skills, background, and projects. Styled with custom CSS, icons, and media queries for mobile-friendly viewing.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Section 4: Summary-->
+        <section id="Summary" class="summary">
+        <h2>About Me</h2>
+        <div class="group">
+            <div class="persondetails">
+                <img src="Image/testi.jpg" alt="Srinivas">
+                <p><strong>Srinivas Ch</strong></p>
+                <p>B.Tech CSE | VIT-AP</p>
+            </div>
+            <div class="text">
+                <p>I’m a Computer Science student who enjoys problem-solving and exploring how code can be used to create smart, useful systems. I’m currently learning Kotlin and Java for Android development, and I love working on small but meaningful projects that challenge my understanding. Outside tech, I enjoy playing badminton and watching movies to stay balanced and inspired.</p>
+            </div>
+        </div>
+        </section>
+        <!--Section 4: Conatact-->
+        <section id="Contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+        </form>
+        </div>
+        </section>
+
+    </main>
+    
+</body>
+<footer style="text-align:center; padding:20px; font-size:14px; color:#666;">
+    © 2025 Srinivas Siva Surya Chitneedi. All rights reserved.
+</footer>
+
+</html>
